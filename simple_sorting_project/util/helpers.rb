@@ -36,7 +36,7 @@ module Helpers
   end
 
   def self.apply_prank(numbers)
-    if numbers.size >= 4
+    if numbers.size >= 6
       numbers[1], numbers[-1] = numbers[-1], numbers[1]
     end
     numbers
