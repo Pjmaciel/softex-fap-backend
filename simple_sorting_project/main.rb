@@ -1,4 +1,3 @@
-# main.rb
 require_relative 'lib/selection_sort'
 require_relative 'util/helpers'
 
